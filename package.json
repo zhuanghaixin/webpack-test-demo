@@ -4,15 +4,26 @@
   "description": "炫酷的简历",
   "main": "index.js",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.1.7",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.3.0",
+    "sugarss": "^2.0.0",
     "swiper": "^4.3.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "node-sass": "^4.9.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src/js -d dist/js "
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
